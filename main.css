@@ -73,10 +73,12 @@ a:hover {
     color: #FEA049;
 }
 
-.submit:hover {
-    color: #FEA049;
-    background-color: white;
+a {
+    height: 200%;
+    margin-bottom: 2px;
 }
+
+
 
 /* header styles */
 nav {
@@ -201,8 +203,8 @@ main .portfolio .links a:hover {
 }
 main .portfolio img {
     display: block;
-    max-height: 200px;
-    max-width: 220px;
+    max-height: 190px;
+    max-width: 190px;
     width: auto;
     height: auto;
 }
@@ -220,13 +222,18 @@ form {
 
 .submit {
     grid-column: 2 / 2;
-    width: 25%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
     background-color: #1E3487;
     color: white;
     border-radius: 2px;
+}
+
+.submit:hover {
+    color: #FEA049;
+    background-color: white;
 }
 
 /* footer styles */
