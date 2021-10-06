@@ -4,6 +4,9 @@
     <head>
         <title>Cory Fladhammer | Web Developer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- added meta description for SEO optimization -->
+        <meta name="description" content="Hey, what are you waiting for? 
+        Contact Cory Fladhammer for a software development role!">
         <script src="https://kit.fontawesome.com/3075e528fd.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do%7CRaleway&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="main.css">
@@ -57,34 +60,40 @@
                 <h3 class="section-title">
                     <i class="fas fa-address-card"></i>
                     Contact
-                </h3>
-                <ul class="contact">
-                    <li class="contact-info">
-                        <a href="mailto:cory.fladhammer@gmail.com?subject=Hello" target="_blank" aria-label="Email Cory">
-                            <i class="fas fa-envelope" title="Email">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/coryflad" target="blank" aria-label="View GitHub profile">
-                            <i class="fab fa-github" title="GitHub">
-                            </i>
-                        </a>
-                    </li>
-                    <li class="contact-info">
-                        <a href="https://www.linkedin.com/in/cory-fladhammer-a7a529114/" target="_blank"
-                            aria-label="View LinkedIn profile">
-                            <i class="fab fa-linkedin" title="LinkedIn">
-                            </i>
-                        </a>
-                    </li>
-                </ul>
+                </h3><br>
+                <p>If you would like to colaborate on a project or ask me any questions, submit your information below and I will be in contact!</p>
+                <form method="POST" action="https://webdevbasics.net/scripts/portfolio.php">
+                    <label for="myName">Name:</label>
+                    <input type="text" name="myName" id="myName">
+                    <label for="myEmail">E-mail:</label>
+                    <input type="email" name="myEmail" id="myEmail">
+                
+                    <label for="myComments">Comments:</label>
+                    <textarea name="myComments" id="myComments" 
+                    rows="2" cols="20" placeholder="Enter comment here..."></textarea>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
             </div>
         </section>
     </main>
 
     <footer aria-label="contact-info">
-        <p>&copy; 2021 Cory Fladhammer</p>
+        <p>&copy; 2021 Cory Fladhammer</p><br>
+        <ul class="contact">
+            <li>
+                <a href="https://github.com/coryflad" target="blank" aria-label="View GitHub profile">
+                    <i class="fab fa-github" title="GitHub">
+                    </i>
+                </a>
+            </li>
+            <li class="contact-info">
+                <a href="https://www.linkedin.com/in/cory-fladhammer-a7a529114/" target="_blank"
+                    aria-label="View LinkedIn profile">
+                    <i class="fab fa-linkedin" title="LinkedIn">
+                    </i>
+                </a>
+            </li>
+        </ul>
     </footer>
 </body>
 
